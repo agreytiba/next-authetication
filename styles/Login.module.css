@@ -1,0 +1,19 @@
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh; 
+}
+.form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.form button{
+    width: 20%;
+    height: 30px;
+    background-color: rgb(46, 93, 131);
+    border: none;
+    color: #fff;
+}
